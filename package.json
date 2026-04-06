@@ -1,0 +1,69 @@
+{
+    "name": "Phoenix-MD",
+    "version": "1.0.0",
+    "description": "A Simple But Advanced WhatsApp Bot!",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "pm2 start index.js --attach --name Phoenix-MD",
+        "stop": "pm2 stop Phoenix-MD"
+    },
+    "engines": {
+        "node": "20.x"
+    }, 
+    "keywords": [
+        "scbot",
+        "termuxbot",
+        "wa-bot",
+        "multi-device",
+        "whatsapp-md",
+        "wabotmd",
+        "WhatsApp bot",
+        "automation",
+        "chatbot",
+        "nodejs",
+        "messenger",
+        "AI",
+        "npm",
+        "baileys",
+        "pm2",
+        "terumx-bot",
+        "phoenix-md",
+        "AbhishekSuresh2",
+        "commonjs"
+    ],
+    "author": "Abhishek Suresh",
+    "license": "Apache License 2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AbhishekSuresh2/Phoenix-MD-Bot.git"
+    },
+    "dependencies": {
+        "@whiskeysockets/baileys": "npm:baileys@latest",
+        "axios": "^1.4.0",
+        "awesome-phonenumber": "^7.2.0",
+        "browser-id3-writer": "^4.4.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.1",
+        "file-type": "^16.5.3",
+        "form-data": "^4.0.0",
+        "fluent-ffmpeg": "^2.1.2",
+        "got": "^11.8.2",
+        "@hapi/boom": "^10.0.1",
+        "heroku-client": "^3.1.0",
+        "jimp": "latest",
+        "jsdom": "^25.0.1",
+        "node-koyeb-api": "^1.0.7",
+        "link-preview-js": "^3.0.4",
+        "node-webpmux": "^3.2.0",
+        "pino": "^8.6.1",
+        "pm2": "^5.1.2",
+        "pg": "^8.7.3",
+        "sharp": "^0.30.4",
+        "sqlite3": "^5.0.11",
+        "sequelize": "^6.21.4",
+        "simple-git": "^3.20.0",
+        "uuid": "^11.0.3",
+        "wa-sticker-formatter": "^4.4.4"
+    }
+}
